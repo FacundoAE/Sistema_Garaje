@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SistemaGaraje
+</name>
+</assembly>
+<members>
+<member name="T:SistemaGaraje.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.botonAgregar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.estadisticas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.garajeIcono">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.imprimirIcono">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.ingresoIcono">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.opcionesIcono">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.salidaIcono">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SistemaGaraje.My.Resources.Resources.ticketIcono">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.garajesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.ticketsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.usuariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.PrimerTicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.SegundoTicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.garajesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.ticketsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.usuariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.PrimerTicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.SegundoTicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.garajesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.ticketsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.usuariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.PrimerTicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSet.SegundoTicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSetTableAdapters.garajesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSetTableAdapters.ticketsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSetTableAdapters.usuariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSetTableAdapters.PrimerTicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSetTableAdapters.SegundoTicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SistemaGaraje.SisGarDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SistemaGaraje.SisGarDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SistemaGaraje.SisGarDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SistemaGaraje.SisGarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SistemaGaraje.SisGarDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SistemaGaraje.SisGarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SistemaGaraje.SisGarDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SistemaGaraje.SisGarDataSetTableAdapters.TableAdapterManager.UpdateAll(SistemaGaraje.SisGarDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SistemaGaraje.SisGarDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
